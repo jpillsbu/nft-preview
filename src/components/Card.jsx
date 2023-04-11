@@ -4,7 +4,7 @@ function Card({ name, description, price, time, creator, nftImage }) {
     return (
         <div className="card">
             <div className="card-image">
-                <img src={nftImage} />
+                <img src={nftImage} alt="NFTImage" />
             </div>
             <h1 className="nft-heading">{name}</h1>
             <p className="nft-description">{description}</p>
